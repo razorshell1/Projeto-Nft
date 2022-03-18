@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.attribution {
+    font-family:'Outfit',sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    width: 270px;
+    margin-left: 800px;
+    margin-top: 200px;
+    padding: 10px;
+    box-shadow: 15px 15px 3pt rgba(0,0,0,.3);
+    color: hsl(215, 51%, 70%) ;
+    padding-right: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution p{
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.attribution img {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 100%;
+    margin-left: -7px;
+}
+.attribution img:hover {
+    cursor: pointer;
+}
+.attribution .main-image div{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%,55%);
+    width: 255px;
+    height: 26%;
+    z-index: 999;
+    margin-top: -266px;
+    padding-left: -110px;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    border-radius: 10px;
+}
+.attribution .main-image div:hover {
+    opacity: 1;
+}
+.attribution .main-image div img {
+    width: 60px;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+.relogio img {
+    width: 15px;
+    margin-left: 165px;
+    margin-top: -38px;
+    position: absolute;
+}
+
+div.attribution h1 {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 19px;
+    padding-right: 85px;
+    color:  hsl(0, 0%, 100%);
+}
+
+div.attribution h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+div.attribution h2 {
+    color:hsl(178, 100%, 50%);
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 10pt;
+    background: url("images/icon-ethereum.svg") no-repeat;
+    padding-left:20px;
+}
+
+.attribution span{
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    float: right;
+    position: relative;
+    margin-top: -30px;
+    margin-right: 13px;
+}
+/*Formatação do rodapé*/
+
+footer#rodape {
+    display: block;
+    clear: both;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+footer#rodape p{
+    position: absolute;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: 43px;
+    font-weight: 600;
+    font-size:13px;
+}
+
+figure.avatar img{
+    width: 30px;
+    padding: 0px 0px 0px 0px;
+    margin-left: -40px;
+    margin-top: -3px;
+    border: 1px solid  hsl(0, 0%, 100%);
+}
+
+footer#rodape span{
+    color: hsl(0, 0%, 100%);
+    margin-top: 0px;
+    margin-left: 3px;
+}
+
+footer#rodape span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
